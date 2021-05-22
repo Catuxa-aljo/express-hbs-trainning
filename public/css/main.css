@@ -1,0 +1,27 @@
+
+
+#game-thrones{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row ;
+    box-sizing: border-box;
+    padding: 0 10%;
+    width: 100%;
+    flex-wrap: wrap;
+    
+}
+
+#game-thrones > div{
+    width: 15%
+}
+
+.btn-primary{background-color: #17a2b8; border: darkcyan;}
+
+.navbar{justify-content: center; flex-direction: column;}
+
+h1{text-align: center; margin: 5%; font-size: 4rem; text-transform: uppercase;}
+
+.card-body{text-align: center; margin-bottom: 10%;}
+.card-text{text-align: left;}
+.card-body h5{font-weight: bold; color: #666 ;}
+small{font-size: 1rem; font-weight: bold; color: #ccc;}
